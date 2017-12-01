@@ -2,5 +2,5 @@ class Message < ApplicationRecord
     validates :title , length: { maximum: 32 } , presence: true
     validates :message , length: { maximum: 256 } , presence: true
     validates :name , length: { maximum: 32 }
-    validates :age , legth: { maximum: 3 } , numericality: true
+    validates :age , length: { maximum: 3 } , numericality: true
 end
